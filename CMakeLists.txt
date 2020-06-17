@@ -10,4 +10,5 @@ add_executable(4-6-numstr 4/4-6-numstr.cpp)
 add_executable(4-24-choices 4/4-24-choices.cpp)
 
 add_executable(6-15-outfile 6/6-15-outfile.cpp)
+add_executable(6-16-outfile 6/6-16-sumafile.cpp)
 
