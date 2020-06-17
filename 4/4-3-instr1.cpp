@@ -9,10 +9,15 @@ int main() {
     char name[SIZE];
     char dessert[SIZE];
 
+//    name = name + 1;    // invalid
+
+//    int *a = new int[7];
+//    a = a + 1;       // valid
+
     cout << "What's your name:" << endl;
     cin >> name;
     cout << "What's your favorite dessert:\n";
-    cin >> dessert;
+    cin >> dessert;    // todo 为什么不会读取上一个cin留在输入队列中的换行符？
 //    cin.getline(dessert, SIZE); // 与cin配合使用，会读取cin留在输入队列中的换行符.
     cout << "I have some delicious " << dessert << " ";
     cout << "for you," << name;
